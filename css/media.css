@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+
+    .component {
+        height: 600px;
+        width: 300px;
+    }
+
+    .container1, svg {
+        padding-bottom: 5px;
+    }
+
+    .container2 h1 {
+        padding-bottom: 1em;
+    }
+
+    .container2 > p {
+        text-align: center;
+        font-size: 14px;
+        padding: 0px 1em 1rem;
+    }
+
+    .div-container {
+        padding: 5px;
+    }
+
+    .div-container > svg {
+        padding-left: 4px;
+    }
+
+    .price h2 {
+        font-size: 14px;    
+    }
+
+    .price p {
+        font-size: 14px;    
+    }
+
+    .div-container > a {
+        font-size: 14px;
+        padding-right: 5px;
+    }
+
+    .container3 > a {
+        font-size: 14px;
+        padding: 15px 62px;
+    }
+
+    .container3 p {
+        padding: 1.5rem 0px 0px;
+    }
+
+    
+    
+
+}

@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif; /* 500,600,700 */
+}
+
+main {
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.component {
+    background-color: hsl(225, 100%, 98%);
+    height: 700px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.233);
+}
+
+.container1, svg {
+    width: 100%;
+    padding-bottom: 1rem;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container2 h1 {
+    padding-bottom: 1rem;
+    font-weight: 700;
+}
+
+.container2 > p {
+    text-align: center;
+    font-size: 1em;
+    padding: 0px 1em 3rem;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5em;
+}
+
+.div-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(226, 57%, 95%);
+    border-radius: 20px;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.055);
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.price h2 {
+    font-weight: 700;
+    font-size: 16px;    
+}
+
+.price p {
+    color: hsl(224, 23%, 55%);    
+}
+
+.div-container > svg { 
+    height: 64px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.div-container > a {
+    font-weight: 700;
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+}
+
+.div-container >a:hover {
+    text-decoration: none;
+    transition: 0.5s all;
+    color: hsla(245, 67%, 59%, 0.74);
+}
+
+.container3 {
+    padding: 20px;
+}  
+
+.container3 > a {
+    font-size: 16px;
+    background-color: hsl(245, 75%, 52%);
+    text-align: center;
+    width: 100%;
+    padding: 15px 80px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px hsla(245, 75%, 52%, 0.267);
+    color: hsl(225, 100%, 94%);
+    text-decoration: none;
+}
+
+.container3 > a:hover {
+    transition: 0.5s all;
+    background-color: hsl(245, 67%, 59%);
+}
+
+.container3 p {
+    font-size: 14px;
+    text-align: center;
+    padding: 3.5rem 0px 2.5rem;
+}
+
+.container3 p > a {
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.container3 p > a:hover {
+    text-decoration: underline;
+    color: hsl(223, 47%, 23%);
+}
+
+
+/* 
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+*/
+
+
