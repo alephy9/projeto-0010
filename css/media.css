@@ -3,6 +3,7 @@
 @media screen and (max-width: 600px) {
 
     .component {
+        margin: 5rem 0px;
         height: 600px;
         width: 300px;
     }
