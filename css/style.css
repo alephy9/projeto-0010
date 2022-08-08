@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Red Hat Display', sans-serif; /* 500,600,700 */
+    background-color: hsl(225, 100%, 94%);
 }
 
 main {
